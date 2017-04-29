@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as Et
 import json
-import _utils
-
+from dev_phase_first_hackathon import _utils
 
 def basic_read():
     tree = Et.parse('mock_data.xml', )

@@ -24,3 +24,7 @@ print(locations)
 print(titles)
 print(dates)
 
+from dev_phase_first_hackathon import xml_parser
+for i in range(len(dates)):
+    R = xml_parser.RawData(titles[i], dates[i], locations[i])
+    R.dump('test')

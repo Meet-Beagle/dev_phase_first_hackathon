@@ -2,6 +2,9 @@ import xml.etree.ElementTree as Et
 import json
 from dev_phase_first_hackathon import _utils
 
+__author__ = "George"
+__date__ = "2017-04-29"
+
 def basic_read():
     tree = Et.parse('mock_data.xml', )
     root = tree.getroot()
